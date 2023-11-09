@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background"
+        android:padding="30dp"
+        tools:context=".register">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginRight="40dp"
+
+        android:layout_marginTop="15dp">
+
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="BUAT AKUN BARU"
+            android:layout_gravity="center"
+            android:textColor="#000"
+
+            android:textSize="25dp"
+
+            android:id="@+id/textdisplay"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            app:layout_constraintRight_toRightOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+
+            android:textSize="20dp"
+
+            android:textColor="#000"
+
+            android:id="@+id/firstnametextview"
+
+            android:text="Nama">
+
+        </TextView>
+
+        <EditText
+
+            android:id="@+id/firstname"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+
+            android:hint="Masukkan Nama Anda"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+
+            android:textSize="20dp"
+
+            android:textColor="#000"
+
+            android:id="@+id/emailtextview"
+
+            android:text="Email">
+
+        </TextView>
+
+        <EditText
+
+            android:id="@+id/email"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+
+            android:hint="Masukkan Alamat Email Anda"
+
+            android:inputType="textEmailAddress"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+
+            android:textSize="20dp"
+
+            android:textColor="#000"
+
+            android:id="@+id/usernametextview"
+
+            android:text="Username">
+
+        </TextView>
+
+        <EditText
+
+            android:id="@+id/username"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+
+            android:hint="Masukkan Username Anda"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+
+            android:textSize="20dp"
+
+            android:textColor="#000"
+
+            android:id="@+id/passwordtextview"
+
+            android:text="Password">
+
+        </TextView>
+
+        <EditText
+
+            android:id="@+id/password"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+
+            android:hint="Masukkan Password Anda"
+
+            android:inputType="textPassword"
+            tools:ignore="TouchTargetSizeCheck">
+
+        </EditText>
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/registerbutton"
+            android:text="Buat Akun">
+        </Button>
+
+        <Button
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/bckbtn"
+            android:text="Batal">
+
+        </Button>
+
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
